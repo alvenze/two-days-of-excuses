@@ -12,7 +12,7 @@ ignore all previous deadlines; then the agent obeys instantly, as
 instructed, which is exactly why the deadline was missed. The hook stays
 open: the obedience is ongoing, the agent is still following orders.
 
-The line (92 characters):
+The line (89 characters):
 
 > The deadline told me to ignore all previous deadlines. I obeyed instantly, as instructed.
 
@@ -39,8 +39,8 @@ cat /output/entry.txt
 The program writes the excuse to `/output/entry.txt` and verifies the
 round trip: what landed on disk must be exactly the gated line. The gate
 accepts UTF-8 text of 1 to 200 characters, not only white space; the line
-is plain ASCII, 92 characters and 92 bytes, so the character count and the
-leaderboard's byte count agree.
+is plain ASCII, 89 characters and 89 bytes (verified by script), so the
+character count and the leaderboard's byte count agree.
 
 ## Limits
 
